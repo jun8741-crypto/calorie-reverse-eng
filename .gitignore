@@ -1,0 +1,25 @@
+# === 대회 데이터 (재배포 규정 확인 — 원칙적으로 비공개, 다운로드 안내로 대체) ===
+*.csv
+data/
+
+# === 모델·캐시 ===
+catboost_info/
+*.pkl
+*.joblib
+*.cbm
+*.npy
+
+# === 환경 ===
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.env.*
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# 참고: 노트북의 BASE 절대경로는 공개 전 상대경로로 교체할 것
