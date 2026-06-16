@@ -53,6 +53,8 @@ Female:  Cal = round((0.10688×BPM − 0.01372×W_kg_int + 0.01769×Age −  4.8
 
 ## 3. 핵심 성과 (Key Results)
 
+![리더보드 1위 — RMSE 0.02](assets/leaderboard.jpeg)
+
 - **Train 정확률 100% (7,500/7,500)** · 반올림 RMSE **0.0000** — 생성 공식을 완벽 복원.
 - **RMSE 0.5 → 0.1 → 0.02**로 단계적 돌파, 기수 내 프로젝트 리더보드 **1위** *(대외 공식 수상 아님)*.
 - **first-principles 사고의 교과서적 사례** — *"CatBoost는 트리로 f(X)를 근사, 선형회귀는 직선으로 근사, 역공학은 데이터가 알려주는 진짜 f(X)를 그대로 쓴다."* 결론은 **"데이터 특성에 맞는 모델(접근) 선정"**.
@@ -85,7 +87,7 @@ pip install pandas numpy scikit-learn matplotlib koreanize_matplotlib
 | 파일 | 설명 |
 |---|---|
 | `[Perfect]Regressor_260222_Keytel_IntKg.ipynb` | 최종 역공학 솔루션 (5단계 발견 → 공식 복원 → 제출 생성) |
-| `13조_13일의 칼로리 버닝조_260224_발표용.pptx` | 발표자료 |
+| `docs/presentation.pdf` | 발표자료 (13조 "13일의 칼로리 버닝조") |
 
 > ⚠️ 공개 전 점검: 노트북의 `BASE` 절대경로(개인 폴더)는 상대경로로 교체, 대회 데이터는 재배포 규정 확인 후 다운로드 안내로 대체.
 
